@@ -1,5 +1,7 @@
 # Personal CV Online
 
+• __Deployment__: https://doanhthang.github.io/personalCvOnline
+
 • **Techniques**: JavaScript, Bootstrap, HTML, CSS
 
 • **Description**: a resume website that includes personal information as well as career skills.
@@ -17,5 +19,3 @@
 	- Check and correct.
  
 	- Review, update, store and share.
-
-• __Deployment__: https://doanhthang.github.io/personalCvOnline
