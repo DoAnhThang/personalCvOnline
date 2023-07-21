@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Custom styles -->
+    <title>Do Anh Thang | Personal CV</title>
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/laptop.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+  </head>
+
+  <body>
+    <!-- Building Banner part -->
+    <section id="banner" class="container-fluid">
+      <div class="banner-text text-nowrap text-white text-center">
+        <h1>DO ANH THANG</h1>
+        <p>Full Stack Developer</p>
+      </div>
+    </section>
+
+    <!-- Building Navbar part -->
+    <nav id="nav-bar" class="navbar navbar-expand-md py-0">
+      <div class="container justify-content-center">
+        <ul class="navbar-nav w-100 d-flex justify-content-center">
+          <li class="nav-item fw-semibold border-start border-end py-2 px-3">
+            <a class="nav-link text-dark ps-0" href="#about"
+              ><i class="icon-user"></i>INFORMATION</a
+            >
+          </li>
+          <li class="nav-item fw-semibold border-end py-2 px-3">
+            <a class="nav-link text-dark ps-0" href="#job-info"
+              ><i class="icon-doc-text-inv"></i>BACKGROUND</a
+            >
+          </li>
+
+          <!-- (Advanced) Adding personal photo -->
+          <li
+            class="nav-item w-25 d-flex justify-content-center align-items-center"
+          >
+            <img
+              class="rounded-circle border border-white border-1"
+              src="./images/my-avatar.jpg"
+              alt="avatar"
+            />
+          </li>
+
+          <li class="nav-item fw-semibold border-start py-2 px-3">
+            <a class="nav-link text-dark ps-0" href="#certificate"
+              ><i class="icon-mail-alt"></i>CERTIFICATE</a
+            >
+          </li>
+          <li class="nav-item fw-semibold border-start border-end py-2 px-3">
+            <a class="nav-link text-dark ps-0" href="#project"
+              ><i class="icon-star-1"></i>PROJECT</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Building Personal information part -->
+    <section id="about" class="container-fluid">
+      <div class="row">
+        <div id="target" class="col-sm-12 col-md-6 bg-light p-5">
+          <h3 class="mb-4">Career goals</h3>
+          <p class="lh-lg">
+            - Be a student who has completed the Web Fullstack Developer
+            Certificate program of FUNiX. I hope that I will be able to work as
+            a Full Stack Developer, be able to apply the acquired knowledge and
+            constantly learn to develop myself, as well as complete the assigned
+            work.<br />- Short-term (6 months - 1 year): integrate well with the
+            working environment, can apply the knowledge learned to work and
+            become a junior developer.<br />- Long-term (2 years - 5 years): can
+            advance own skills, become a middle-junior developer and help the
+            company increases sales, promote the brand, ...
+          </p>
+        </div>
+
+        <div
+          id="personal-info"
+          class="col-sm-12 col-md-6 bg-secondary bg-opacity-10 p-5"
+        >
+          <h3 class="mb-4">Personal information</h3>
+
+          <form id="formInput">
+            <input
+              type="text"
+              placeholder="Enter email"
+              class="form-control w-50"
+              id="emailInput"
+              required
+            />
+            <p class="form-text" id="alert">
+              Please enter your email to verify
+            </p>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+          <ul class="list-unstyled lh-lg mb-0 hide" id="personalInfo">
+            <li><strong>Gender</strong> : Male (Single)</li>
+            <li><strong>Date of birth</strong> : July 18, 1994</li>
+            <li><strong>Phone</strong> : (+84) 365 637 104</li>
+            <li><strong>Email</strong> : thangdafx19838@funix.edu.vn</li>
+            <li><strong>Address</strong> : Dong Anh, Hanoi, Vietnam</li>
+            <li class="pb-3">
+              <strong>Website</strong> :
+              <a href="https://www.linkedin.com/in/thangda" target="_blank"
+                >linkedin.com/in/thangda/</a
+              >
+            </li>
+            <li>
+              <a href="" class="text-decoration-none me-2"
+                ><i class="icon-twitter"></i
+              ></a>
+              <a href="" class="text-decoration-none me-2"
+                ><i class="icon-facebook"></i
+              ></a>
+              <a href="" class="text-decoration-none me-2"
+                ><i class="icon-gplus"></i
+              ></a>
+              <a href="" class="text-decoration-none me-2"
+                ><i class="icon-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Building Job information part -->
+    <section id="job-info" class="container my-5">
+      <div class="row">
+        <div class="col-md-6 col-lg-12">
+          <div class="row">
+            <!-- Building Experience part -->
+            <div class="col-sm-12 col-md-12 col-lg-4 mb-4">
+              <div class="sub-job-info experience">
+                <h3 class="mx-4 mt-5 mb-3">Experience</h3>
+                <i class="ic-toolbox job-info-icon fs-1"></i>
+                <div style="height: 3.5rem">
+                  <button
+                    class="btn btn-warning btn-sm rounded-4 fw-bold w-fit h-fit ms-4 px-4 hide btn-view"
+                  >
+                    ▼ VIEW MORE
+                  </button>
+                </div>
+                <ul class="job-info list-unstyled px-5 mb-0 hide">
+                  <li>
+                    <p class="mb-2">Engineer</p>
+                    <p class="fs-7 mb-1">
+                      Samsung Electronics Vietnam Co., Ltd.
+                    </p>
+                    <p class="time">
+                      <em>06/2017 - 06/2022</em>
+                    </p>
+                    <p class="job-info-text">
+                      - Operate supply chain and logistics management about
+                      sample / material in the hardware R&D department.<br />
+                      - Use internal data management systems to serve for
+                      work.<br />
+                      - Manage, inventory, distribute machinery, equipment and
+                      tools as required by the department and the company.
+                    </p>
+                  </li>
+                  <li>
+                    <p class="mb-2">Product Support Consultant</p>
+                    <p class="fs-7 mb-1">
+                      Minh Ha Technology and Production JSC
+                    </p>
+                    <p class="time"><em>06/2016 - 05/2017</em></p>
+                    <p class="job-info-text">
+                      - Support customer demands through chatting apps and phone
+                      calling.<br />
+                      - Advising customers to buy suitable products of the
+                      company.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Building Skill part -->
+            <div class="col-sm-12 col-md-12 col-lg-4 mb-4">
+              <div class="sub-job-info skill">
+                <h3 class="mx-4 mt-5 mb-3">Skill</h3>
+                <i class="ic-tools-2 job-info-icon fs-1"></i>
+                <div style="height: 3.5rem">
+                  <button
+                    class="btn btn-warning btn-sm rounded-4 fw-bold w-fit h-fit ms-4 px-4 hide btn-view"
+                  >
+                    ▼ VIEW MORE
+                  </button>
+                </div>
+                <div class="job-info skill-language ps-5 pe-4 hide">
+                  <p>HTML/CSS: Intermediate</p>
+                  <div>
+                    <span></span> <span></span>
+                    <span class="grey-line"></span>
+                  </div>
+                  <p>JavaScript: Intermediate</p>
+                  <div>
+                    <span></span> <span></span>
+                    <span class="grey-line"></span>
+                  </div>
+                  <p>ReactJS: Intermediate</p>
+                  <div>
+                    <span></span> <span></span>
+                    <span class="grey-line"></span>
+                  </div>
+                  <p>NodeJS: Fundamental</p>
+                  <div>
+                    <span></span> <span class="grey-line"></span>
+                    <span class="grey-line"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Building Language part -->
+            <div class="col-sm-12 col-md-12 col-lg-4 mb-4">
+              <div class="sub-job-info language">
+                <h3 class="mx-4 mt-5 mb-3">Language</h3>
+                <!-- <i class="ic-mic job-info-icon fs-1"></i> -->
+                <i class="fa-solid fa-language job-info-icon fs-1"></i>
+                <div style="height: 3.5rem">
+                  <button
+                    class="btn btn-warning btn-sm rounded-4 fw-bold w-fit h-fit ms-4 px-4 hide btn-view"
+                  >
+                    ▼ VIEW MORE
+                  </button>
+                </div>
+                <div class="job-info skill-language ps-5 pe-4 hide">
+                  <p>English: Intermediate</p>
+                  <div>
+                    <span></span> <span></span>
+                    <span class="grey-line"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-12">
+          <div class="row">
+            <!-- Building Activity part -->
+            <div class="col-sm-12 col-md-12 col-lg-4 mb-4">
+              <div class="sub-job-info activity">
+                <h3 class="mx-4 mt-5 mb-3">Activity</h3>
+                <!-- <i class="ic-toolbox job-info-icon fs-1"></i> -->
+                <i class="fa-solid fa-people-group job-info-icon fs-1"></i>
+                <div style="height: 3.5rem">
+                  <button
+                    class="btn btn-warning btn-sm rounded-4 fw-bold w-fit h-fit ms-4 px-4 hide btn-view"
+                  >
+                    ▼ VIEW MORE
+                  </button>
+                </div>
+                <ul class="job-info list-unstyled px-5 mb-0 hide">
+                  <li>
+                    <p class="mb-2">Minh Ha Technology and Production JSC</p>
+                    <p class="fs-7 mb-1">Employee Quality Survey 2016</p>
+                    <p class="time"><em>12/2016 - 01/2017</em></p>
+                    <p class="job-info-text">
+                      Excellent Staff<br />
+                      Department: Online Sale<br />Room: Business
+                    </p>
+                  </li>
+                  <!-- <li>
+                    <p class="mb-2">Club Z</p>
+                    <p class="time"><em>06/2015 - 06/2016</em></p>
+                    <p class="job-info-text">Head of Department of Expertise</p>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+
+            <!-- Building Education part -->
+            <div class="col-sm-12 col-md-12 col-lg-4 mb-4">
+              <div class="sub-job-info education">
+                <h3 class="mx-4 mt-5 mb-3">Education</h3>
+                <!-- <i class="ic-pencil job-info-icon fs-1"></i> -->
+                <i class="fa-solid fa-user-graduate job-info-icon fs-1"></i>
+                <div style="height: 3.5rem">
+                  <button
+                    class="btn btn-warning btn-sm rounded-4 fw-bold w-fit h-fit ms-4 px-4 hide btn-view"
+                  >
+                    ▼ VIEW MORE
+                  </button>
+                </div>
+                <ul class="job-info list-unstyled px-5 mb-0 hide">
+                  <li>
+                    <p class="mb-2">FUNiX</p>
+                    <p class="time"><em>11/2022 - 06/2023</em></p>
+                    <p class="job-info-text">
+                      Web Fullstack Developer Certificate<br />
+                      GPA: 8.7 / 10
+                    </p>
+                  </li>
+                  <li>
+                    <p class="mb-2">
+                      Engineer degree - Hanoi University of Industry
+                    </p>
+                    <p class="time"><em>09/2012 - 05/2016</em></p>
+                    <p class="job-info-text">
+                      Major: Electronics and Communications Engineering
+                      Technology<br />
+                      GPA: 3.1 / 4
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Building Hobby part -->
+            <div class="col-sm-12 col-md-12 col-lg-4 mb-4">
+              <div class="sub-job-info hobby">
+                <h3 class="mx-4 mt-5 mb-3">Hobby</h3>
+                <i class="ic-telescope job-info-icon fs-1"></i>
+                <div style="height: 3.5rem">
+                  <button
+                    class="btn btn-warning btn-sm rounded-4 fw-bold w-fit h-fit ms-4 px-4 hide btn-view"
+                  >
+                    ▼ VIEW MORE
+                  </button>
+                </div>
+                <div
+                  class="row job-info grid-hobby px-4 pb-4 hide"
+                  style="row-gap: 1rem"
+                >
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-3 col-3 d-flex flex-column align-items-center text-center"
+                  >
+                    <i class="ic-megaphone rounded-circle fs-4 px-0"></i>
+                    <p class="px-0 pt-2">Music</p>
+                  </div>
+
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-3 col-3 d-flex flex-column align-items-center text-center"
+                  >
+                    <i class="ic-strategy rounded-circle fs-4 px-0"></i>
+                    <p class="px-0 pt-2">Gaming</p>
+                  </div>
+
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-3 col-3 d-flex flex-column align-items-center text-center"
+                  >
+                    <i class="ic-hotairballoon rounded-circle fs-4 px-0"></i>
+                    <p class="px-0 pt-2">Tourism</p>
+                  </div>
+
+                  <div
+                    class="col-lg-3 col-md-4 col-sm-3 col-3 d-flex flex-column align-items-center text-center"
+                  >
+                    <i class="ic-basket rounded-circle fs-4 px-0"></i>
+                    <p class="px-0 pt-2">Cooking</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Building Certificate part -->
+    <section id="certificate" class="bg-light">
+      <div class="container pt-5">
+        <h3 class="mb-0">Certificate</h3>
+
+        <div class="row border-bottom border-warning">
+          <div
+            class="col-sm-12 col-md-6 col-lg-6 border-end border-warning my-5 sub-cert"
+          >
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <img
+                  src="./images/FUNiX_FX226075SC_WEB101x_DoAnhThang.jpg"
+                  alt="certificate"
+                  class="w-100 cursor-pointer"
+                  onclick="handleShowImage('./images/FUNiX_FX226075SC_WEB101x_DoAnhThang.jpg')"
+                />
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <h6 class="fw-bold mb-3">BUILDING THE FIRST WEBSITE</h6>
+                <p class="text-secondary mb-0">
+                  - Belongs to the FUNiX Enterprise Certificate program<br />-
+                  GPA: 8.3 / 10
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-6 py-5">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <img
+                  src="./images/FUNiX_FX226720SC_PRF192x_DoAnhThang.jpg"
+                  alt="certificate"
+                  class="w-100 cursor-pointer"
+                  onclick="handleShowImage('./images/FUNiX_FX226720SC_PRF192x_DoAnhThang.jpg')"
+                />
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <h6 class="fw-bold mb-3">
+                  PROGRAMMING TECHNIQUES WITH JAVASCRIPT
+                </h6>
+                <p class="text-secondary mb-0">
+                  - Belongs to the FUNiX Enterprise Certificate program<br />-
+                  GPA: 8.5 / 10
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div
+            class="col-sm-12 col-md-6 col-lg-6 border-end border-warning my-5 sub-cert"
+          >
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <img
+                  src="./images/FUNiX_FX227738SC_RJS301x_DoAnhThang.jpg"
+                  alt="certificate"
+                  class="w-100 cursor-pointer"
+                  onclick="handleShowImage('./images/FUNiX_FX227738SC_RJS301x_DoAnhThang.jpg')"
+                />
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <h6 class="fw-bold mb-3">
+                  FRONT-END WEB DEVELOPMENT WITH REACTJS
+                </h6>
+                <p class="text-secondary mb-0">
+                  - Belongs to the FUNiX Enterprise Certificate program<br />-
+                  GPA: 9.3 / 10
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-6 py-5">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <img
+                  src="./images/FUNiX_FX229017SC_NJS301x_DoAnhThang.jpg"
+                  alt="certificate"
+                  class="w-100 cursor-pointer"
+                  onclick="handleShowImage('./images/FUNiX_FX229017SC_NJS301x_DoAnhThang.jpg')"
+                />
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-6">
+                <h6 class="fw-bold mb-3">
+                  BACK-END WEB DEVELOPMENT WITH NODEJS
+                </h6>
+                <p class="text-secondary mb-0">
+                  - Belongs to the FUNiX Enterprise Certificate program<br />-
+                  GPA: 8.7 / 10
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Building Project part -->
+    <section id="project" class="container mt-5">
+      <h3 class="mb-4">Project</h3>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-4 mb-5">
+          <div class="h-100 border border-top-0">
+            <a
+              href="pc-ecommerce.html"
+              target="_blank"
+              class="text-decoration-none border-white"
+            >
+              <img src="./images/project_1.png" alt="project" />
+            </a>
+
+            <div class="border-top project">
+              <a
+                href="https://github.com/DoAnhThang/e-commerceWebsite"
+                target="_blank"
+                class="d-block text-decoration-none text-center fw-bold cursor-pointer p-3"
+                >E-COMMERCE WEBSITE
+              </a>
+              <div class="project-brief border-top border-bottom">
+                <span class="year d-inline-block text-white py-2 px-3 m-3"
+                  >2023</span
+                >
+                <span class="project-icon">
+                  <i class="icon-user-1">&nbsp;FUNiX</i>
+                  <i class="icon-lamp">&nbsp;Developer</i>
+                </span>
+              </div>
+              <table>
+                <tr class="border-bottom">
+                  <td>Description</td>
+                  <td>
+                    - Consists of 2 separate sites for admins and clients.<br />-
+                    Support management of products (CRUD), orders, user
+                    authentication, chat, ...
+                  </td>
+                </tr>
+                <tr class="border-bottom">
+                  <td>Task</td>
+                  <td>
+                    - Code development - Code review - Code optimization - Error
+                    handling
+                  </td>
+                </tr>
+                <tr>
+                  <td>Technique</td>
+                  <td>- Mongoose, ExpressJS, ReactJS, NodeJS</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 mb-5">
+          <div class="h-100 border border-top-0">
+            <a
+              href="pc-booking.html"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <img src="./images/project_2.png" alt="project" />
+            </a>
+            <div class="border-top project">
+              <a
+                href="https://github.com/DoAnhThang/bookingWebsite"
+                target="_blank"
+                class="d-block text-decoration-none text-center fw-bold cursor-pointer p-3"
+                >BOOKING WEBSITE
+              </a>
+              <div class="project-brief border-top border-bottom">
+                <span class="year d-inline-block text-white py-2 px-3 m-3"
+                  >2023</span
+                >
+                <span class="project-icon">
+                  <i class="icon-user-1">&nbsp;FUNiX</i>
+                  <i class="icon-lamp">&nbsp;Developer</i>
+                </span>
+              </div>
+              <table>
+                <tr class="border-bottom">
+                  <td>Description</td>
+                  <td>
+                    - Consists of 2 separate sites for admins and clients.<br />-
+                    Provide search function, check the status of the room and
+                    make a reservation.<br />- Support management of
+                    transactions, hotels and rooms (CRUD).
+                  </td>
+                </tr>
+                <tr class="border-bottom">
+                  <td>Task</td>
+                  <td>
+                    - Code development - Code review - Code optimization - Error
+                    handling
+                  </td>
+                </tr>
+                <tr>
+                  <td>Technique</td>
+                  <td>- Mongoose, ExpressJS, ReactJS, NodeJS</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 mb-5">
+          <div class="h-100 border border-top-0">
+            <a
+              href="pc-movie.html"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <img src="./images/project_3.png" alt="project" />
+            </a>
+            <div class="border-top project">
+              <a
+                href="https://github.com/DoAnhThang/movieApp"
+                target="_blank"
+                class="d-block text-decoration-none text-center fw-bold cursor-pointer p-3"
+                >MOVIE WEBSITE
+              </a>
+              <div class="project-brief border-top border-bottom">
+                <span class="year d-inline-block text-white py-2 px-3 m-3"
+                  >2023</span
+                >
+                <span class="project-icon">
+                  <i class="icon-user-1">&nbsp;FUNiX</i>
+                  <i class="icon-lamp">&nbsp;Developer</i>
+                </span>
+              </div>
+              <table>
+                <tr class="border-bottom">
+                  <td>Description</td>
+                  <td>
+                    - List the highest rated movies by genre.<br />- Show
+                    detailed information and can preview the movie's trailer.<br />-
+                    Support searching movies by keyword, genre, language and
+                    release year.
+                  </td>
+                </tr>
+                <tr class="border-bottom">
+                  <td>Task</td>
+                  <td>
+                    - Code development - Code review - Code optimization - Error
+                    handling
+                  </td>
+                </tr>
+                <tr>
+                  <td>Technique</td>
+                  <td>- ExpressJS, ReactJS, NodeJS</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Building Contact part -->
+    <footer
+      id="footer"
+      class="container-fluid bg-light d-flex justify-content-center py-5"
+    >
+      <a href="" target="_blank" class="text-decoration-none text-secondary">
+        <i class="icon-facebook-circled fs-1 align-middle"></i>
+        <span>Facebook</span>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/thangda"
+        target="_blank"
+        class="text-decoration-none text-secondary mx-5"
+      >
+        <i class="icon-linkedin-circled fs-1 align-middle"></i>
+        <span>Linkedin</span>
+      </a>
+      <a
+        href="https://github.com/DoAnhThang"
+        target="_blank"
+        class="text-decoration-none text-secondary"
+      >
+        <i class="icon-github-circled fs-1 align-middle"></i>
+        <span>Github</span>
+      </a>
+    </footer>
+
+    <div
+      id="backdrop"
+      class="container-fluid vh-100 position-fixed top-0 start-0 hide"
+      style="z-index: 100; background: rgba(0, 0, 0, 0.75)"
+      onclick="handleClickBackdrop()"
+    ></div>
+    <div
+      id="overlay"
+      class="h-75 position-fixed top-50 start-50 hide"
+      style="z-index: 200; transform: translate(-50%, -50%); min-width: 576px"
+    ></div>
+
+    <!-- JavaScript Bundle -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

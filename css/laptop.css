@@ -1,0 +1,185 @@
+/* Utilities */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "fontello", sans-serif;
+}
+i {
+  color: #339af0;
+}
+.fs-7 {
+  font-size: 0.8rem !important;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.w-fit {
+  width: fit-content;
+}
+.h-fit {
+  height: fit-content;
+}
+.hide {
+  display: none !important;
+}
+
+/* -----Building Banner part----- */
+#banner {
+  height: 50vh;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url("../images/banner.jpg"); /* darken the banner image */
+  background-size: cover; /* place the banner to cover the full width of the container */
+  background-position-x: center; /* center-align background-image responsive */
+}
+.banner-text {
+  transform: translate(0, 150%);
+}
+
+/* -----Building Navbar part----- */
+#nav-bar img {
+  width: 22px;
+  transform: scale(5);
+}
+
+/* -----Building Personal information part----- */
+#target,
+#personal-info {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/* -----Building Job information part----- */
+.sub-job-info {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: auto auto 1fr;
+  align-items: flex-start;
+  border: 2px solid #e9ecef;
+}
+.sub-job-info:hover {
+  box-shadow: 10px 5px 5px #e9ecef;
+}
+.job-info {
+  grid-column: 1/-1; /* order 2 full row width */
+}
+.btn-view {
+  animation: appear 0.4s ease;
+}
+@keyframes appear {
+  from {
+    scale: 0;
+  }
+  to {
+    scale: 1;
+  }
+}
+
+/* add bullets before headings */
+#job-info ul li {
+  position: relative;
+}
+#job-info ul li::before {
+  position: absolute;
+  content: "";
+  background-color: #339af0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 0.4rem;
+  left: -1.5rem;
+}
+
+#job-info .job-info-icon {
+  padding-top: 2.8rem;
+  color: #868e96;
+}
+.time {
+  font-size: 14px;
+  color: #868e96;
+  margin-bottom: 12px;
+}
+.job-info-text {
+  font-size: 14px;
+  color: #868e96;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+/* Skill and Language */
+.skill-language {
+  display: inline-block; /* switch to inline-block to remove the previous grid and expand the size */
+}
+.skill-language p {
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+.skill-language span {
+  display: inline-block; /* make the span scales adjacent to each other */
+  background-color: #339af0;
+  height: 2px;
+  width: 44px;
+  margin-right: 12px;
+  margin-bottom: 32px;
+}
+.skill-language div span:last-child {
+  margin-right: 0;
+}
+.skill-language .grey-line {
+  background-color: #e9ecef;
+}
+
+/* Hobby */
+.grid-hobby i {
+  width: 48px;
+  height: 48px;
+  padding-top: 11px;
+  border: 1px solid #339af0;
+  text-align: center;
+}
+.grid-hobby p {
+  color: #868e96;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* -----Building Project part----- */
+.project a {
+  transition: transform 0.3s ease;
+}
+.project a:hover {
+  transform: scale(1.1);
+}
+.project-brief {
+  display: flex;
+  align-items: center;
+}
+.project-brief .year {
+  font-size: 12px;
+  background-color: #339af0;
+  border-radius: 16px;
+}
+.project-brief i {
+  color: #868e96;
+  font-size: 14px;
+  font-style: normal;
+  margin-right: 12px;
+}
+.project table td {
+  font-size: 14px;
+  color: #868e96;
+  padding: 12px;
+  vertical-align: top; /* top alignment for top headings */
+}
+.project table td:first-child {
+  width: 30%; /* increase the width */
+}
+#project img {
+  width: calc(
+    100% + 2px
+  ); /* increase the image width to overwrite the border like a sample */
+  margin: 0 -1px;
+}

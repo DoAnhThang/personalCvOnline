@@ -1,0 +1,23 @@
+@media (max-width: 991px) {
+  /* -----Building Navbar part----- */
+  .nav-item:nth-child(3) {
+    display: none !important;
+  }
+  .nav-item:nth-child(4) {
+    border-left: 0 !important;
+  }
+
+  /* -----Building Certificate part----- */
+  #certificate img {
+    margin-bottom: 1.5rem;
+  }
+
+  /* -----Building Project part----- */
+  .project-icon i {
+    display: inline-block; /* make icon and text always together */
+  }
+  .project-brief {
+    display: flex; /* change the year number and the icon horizontally */
+    align-items: center;
+  }
+}
