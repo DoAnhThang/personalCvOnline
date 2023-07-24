@@ -44,6 +44,11 @@ i {
   width: 22px;
   transform: scale(5);
 }
+#nav-bar li {
+  width: 186px;
+  font-size: 0.9rem;
+  text-align: center;
+}
 
 /* -----Building Personal information part----- */
 #target,
