@@ -12,6 +12,9 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+  #nav-bar li {
+    text-align: start;
+  }
 
   /* -----Building Certificate part----- */
   .sub-cert {
